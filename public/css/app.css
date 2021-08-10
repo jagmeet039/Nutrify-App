@@ -1,0 +1,91 @@
+.nav-link{
+  text-decoration: none;
+  color: white;
+  padding: 0;
+}
+
+.nav-link:hover{
+  color: #aaa;
+}
+
+.nav-bg-dark{
+  background: black;
+}
+
+.signin-img{
+  background-image: linear-gradient(rgba(22,22,22,0.6), rgba(22,22,22,0.6)), url('/images/signin.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.signup-img{
+  background-image: linear-gradient(rgba(22,22,22,0.6), rgba(22,22,22,0.6)), url('/images/signup.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.home-img {
+  background-image: linear-gradient(rgba(22,22,22,0.6), rgba(22,22,22,0.6)), url('/images/home.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+}
+
+.addmeal-img {
+  background-image: linear-gradient(rgba(22,22,22,0.6), rgba(22,22,22,0.6)), url('/images/addmeal.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.name{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.box{
+  padding: 30px 10px;
+  margin: 130px 0px;
+}
+
+.blinker {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.meal-data{
+  background-image: linear-gradient(rgba(22,22,22,0.6), rgba(22,22,22,0.6)), url('/images/home.jpg');
+  padding: 20px;
+  margin: 40px;
+  min-width: 300px;
+  border-radius: 10px;
+}
+
+.meal-box{
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  margin-top: 50px;
+  justify-content: center;
+}
